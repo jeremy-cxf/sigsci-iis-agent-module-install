@@ -12,6 +12,9 @@ Args:
 - accesskeyid [optional]
 - secretaccesskey [optional]
 
+You can provide an agent.conf in the same place you are running the script, and it will parse it and use that.
+I have not tested it with a revproxy config yet.
+
 This tool will do the following:
 - Install the agent  (version specified)
 - Install the module (version specified)
