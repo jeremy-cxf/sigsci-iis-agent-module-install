@@ -1,4 +1,4 @@
-### Signal Sciences Module / Agent Install for Windows
+### Signal Sciences Module / Agent Powershell Install for Windows
 ----
 
 Usage:
