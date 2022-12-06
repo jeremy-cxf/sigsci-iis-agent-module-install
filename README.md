@@ -6,10 +6,11 @@ Usage:
 ./install-sigsci-agent-module-iis.ps1 -modversion latest -agentversion latest -accesskeyid <youraccesskey> -secretaccesskey <secretaccesskey>
 ```
 
-    [String]$modversion,
-    [String]$agentversion,
-    [String]$accesskeyid,
-    [String]$secretaccesskey
+Args:
+- modversion [required]
+- agentversion [required]
+- accesskeyid [optional]
+- secretaccesskey [optional]
 
 This tool will do the following:
 - Install the agent  (version specified)
