@@ -14,7 +14,7 @@ Args:
 
 This tool will do the following:
 - Install the agent  (version specified)
-- Install the module (version specifiec)
+- Install the module (version specified)
 - Install IIS if not installed.
 
 If a secretaccesskey and accesskeyid are not provided, it will install, but the agent cannot bootstrap to log to the control plane or provide advice to the module for requests.
